@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500&display=swap);
+html body{
+  background: #212121;
+  font-family: "Rubik";
+}
+.wrapper {
+  margin: 0 auto;
+  width: 700px;
+  height: 600px;
+  background: #FFEFD5;
+  .title {;
+    font-weight: normal;
+    color: #760306;
+    text-align: center;
+    font-size: 70px;
+  }
+  .sub_title {
+    text-align: center;
+    color: #656565;
+    font-weight: 400;
+  }
+  .elements {
+  margin-left: 30px;
+  text-decoration: underline;
+  list-style-type: circle;
+  color: green;
+  font-weight: 400;
+  font-size: 24px;
+  }
+  .descr {
+    margin-left: 30px;
+    font-weight: 400;
+    color: green;
+  }
+}
+
+
+
+

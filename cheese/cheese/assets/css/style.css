@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "font";
+  src: url(../fonts/font.otf);
+}
+@font-face {
+  font-family: "Library";
+  src: url(../fonts/Library.otf);
+}
+@font-face {
+  font-family: "Library_soft";
+  src: url(../fonts/Library_soft.otf);
+}
+@font-face {
+  font-family: "Perfograma";
+  src: url(../fonts/Perfograma.otf);
+}
+.wrapper {
+  margin: 0 auto;
+  width: 1290px;
+  padding: 30px;
+}
+.wrapper .title {
+  font-family: "Library";
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #A85432;
+}
+.wrapper .descr p {
+  font-family: "font";
+  text-align: center;
+  color: #000;
+  line-height: 30px;
+}
+.wrapper .sub_title {
+  font-family: "Library_soft";
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #1A11C6;
+}
+.wrapper .advice p {
+  font-weight: bold;
+  text-align: right;
+  color: #000;
+}
+.wrapper .ingredients {
+  text-align: center;
+  color: #92146A;
+  text-transform: uppercase;
+}
+.wrapper .list {
+  list-style-type: none;
+}
+.wrapper .list .list__item {
+  font-family: "Perfograma";
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 5px;
+}
+.wrapper .preparation {
+  text-align: center;
+  color: #92146A;
+  text-transform: uppercase;
+}
+.wrapper .recipe p {
+  text-indent: 50px;
+  text-align: justify;
+}
+.wrapper .sauce {
+  width: 290px;
+  height: auto;
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 24px;
+  font-style: italic;
+  color: #A52A2A;
+  border: 1px solid red;
+}

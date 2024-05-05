@@ -1,0 +1,34 @@
+.menu {
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 50px;
+	background: #1B1B1B;
+}
+.menu__list {
+	margin-left: -40px;
+	list-style-type: none;
+}
+.menu__item {
+	font-family: "Rubik";
+	color: #fff;
+	text-align: center;
+	border: 1px solid #606060;
+}
+
+.menu__item:hover {
+	box-shadow: 0 0 10px 6px #3A89D3;
+	transition: all, 0.5s;
+}
+
+.menu__link {
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu__link:hover {
+	font-size: 20px;
+	color: #3A89D3;
+	transition: all, 0.5s;
+}

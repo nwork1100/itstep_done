@@ -1,0 +1,89 @@
+.wrapper {
+  margin: 0 auto;
+  padding-top: 10px;
+  width: 900px;
+  height: 100%;
+  background: url("../img/bg/horoscope_bkgr.jpg") center center/auto repeat;
+  color: #fff;
+}
+.wrapper .header .title {
+  text-transform: uppercase;
+  text-align: center;
+}
+.wrapper .header .line {
+  width: 100%;
+  height: 2px;
+  background: #fff;
+}
+.wrapper .page {
+  padding: 20px;
+}
+.wrapper .page .zodiac {
+  margin-bottom: 100px;
+}
+.wrapper .page .zodiac h2.zodiac__name {
+  position: relative;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.wrapper .page .zodiac h2.zodiac__name::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: block;
+  width: 300px;
+  height: 1px;
+  background: #fff;
+}
+.wrapper .page .zodiac h2.zodiac__name::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: -50px;
+  margin: auto;
+  display: block;
+  width: 300px;
+  height: 1px;
+  background: #fff;
+}
+.wrapper .page .zodiac h2.zodiac__name.up-line-none::before {
+  content: "";
+  background: #000;
+}
+.wrapper .page .zodiac .zodiac-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrapper .page .zodiac .zodiac-flex .zodiac-img-wrapp {
+  margin-right: 20px;
+  max-width: 250px;
+  height: 100%;
+  border: 3px solid #fff;
+}
+.wrapper .page .zodiac .zodiac-flex .zodiac-img-wrapp .zodiac-img {
+  width: 100%;
+}
+.wrapper .page .zodiac .zodiac-flex .zodiac-descr {
+  margin-right: 20px;
+}
+.wrapper .page .zodiac .zodiac-flex .zodiac-descr .descr-text {
+  font-size: 16px;
+  text-align: center;
+}
+.wrapper .page .zodiac .zodiac-flex .zodiac-descr .descr-name span {
+  text-decoration: underline;
+}
